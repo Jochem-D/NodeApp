@@ -5,5 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "anime time"
+    - run: npm install ci
     - run: npm ci
     - run: npm test
