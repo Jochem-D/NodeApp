@@ -4,4 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "🎉 Good job!"
+    - run: echo "anime time"
+    - run: npm install ci
+    - run: npm test
