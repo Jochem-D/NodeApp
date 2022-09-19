@@ -4,7 +4,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+    - run: Check out repository code
+    - run: actions/checkout@v3
     - run: echo "anime time"
-    - run: npm install ci
     - run: npm ci
     - run: npm test
