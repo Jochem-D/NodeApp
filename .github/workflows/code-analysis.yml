@@ -10,7 +10,7 @@ jobs:
       uses: codiga/github-action@master
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        codiga_api_token: ${{ secrets.CODIGA_API_TOKEN }}
+        codiga_api_token: ${{ secrets.CODE_ANALYSIS_TOOL }}
         force_ref: 'none'
         min_quality_grade: 'WARNING'
         min_quality_score: '50'
